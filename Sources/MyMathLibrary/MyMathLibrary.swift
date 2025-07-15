@@ -44,3 +44,14 @@ public struct MathSDK {
         return a / b
     }
 }
+private struct MathFuncSDK {
+    
+    /// Adds two numbers together.
+    /// - Parameters:
+    ///   - a: The first number.
+    ///   - b: The second number.
+    /// - Returns: The sum of the two numbers.
+    private static func add(_ a: Double, to b: Double) -> Double {
+        return a + b
+    }
+}
